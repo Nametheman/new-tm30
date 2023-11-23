@@ -1,0 +1,117 @@
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+@import url("https://fonts.cdnfonts.com/css/mollen-personal-use");
+
+@font-face {
+  font-family: "mollen-light";
+  src: url("./assets/font/mollen/Mollen-Personal-Use-Light.otf")
+    format("opentype");
+  font-weight: light;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "mollen-light";
+  src: url("./assets/font/mollen/Mollen-Personal-Use-LightNarrow.otf")
+    format("opentype");
+  font-weight: light;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "mollen-bold";
+  src: url("./assets/font/mollen/Mollen-Personal-Use-Bold.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "generalsans-bold";
+  src: url("./assets/font/general-sans/GeneralSans-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "generalsans-extralight";
+  src: url("./assets/font/general-sans/GeneralSans-Extralight.otf")
+    format("opentype");
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: "generalsans-light";
+  src: url("./assets/font/general-sans/GeneralSans-Light.otf")
+    format("opentype");
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: "generalsans-regular";
+  src: url("./assets/font/general-sans/GeneralSans-Regular.otf")
+    format("opentype");
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: "generalsans-medium";
+  src: url("./assets/font/general-sans/GeneralSans-Medium.otf")
+    format("opentype");
+  font-weight: light;
+  font-style: normal;
+}
+@font-face {
+  font-family: "generalsans-semibold";
+  src: url("./assets/font/general-sans/GeneralSans-Semibold.otf")
+    format("opentype");
+  font-weight: light;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Mollen Personal Use", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "General Sans", sans-serif;
+}
+p,
+a {
+  font-weight: 400;
+}
+
+.css-1u9des2-indicatorSeparator {
+  display: none !important;
+}
+.css-1dimb5e-singleValue {
+  font-family: sans-serif !important;
+  font-size: small;
+}
+
+.css-1nmdiq5-menu {
+  font-family: sans-serif !important;
+  font-size: small;
+}
+/* .select__value-container {
+  height: 40px;
+  border: 1px solid red;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+} */
+.css-w9q2zk-Input2 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.selectInner__placeholder {
+  color: #989898 !important;
+  font-family: "generalsans-extralight" !important;
+  font-size: 0.8rem;
+}
